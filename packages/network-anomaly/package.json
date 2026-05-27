@@ -1,0 +1,31 @@
+{
+  "name": "@tiny-webgpu/network-anomaly",
+  "version": "0.1.0",
+  "description": "GPU-accelerated anomaly detection helpers for network-derived numeric features.",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/tiny-webgpu-network-anomaly.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run tests/**/*.test.ts"
+  },
+  "keywords": [
+    "webgpu",
+    "network",
+    "anomaly-detection",
+    "timeseries"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@tiny-webgpu/compute": "0.1.0"
+  }
+}

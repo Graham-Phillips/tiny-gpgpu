@@ -1,0 +1,29 @@
+{
+  "name": "@tiny-webgpu/compute",
+  "version": "0.1.0",
+  "description": "A tiny TypeScript helper library for running general-purpose compute workloads with WebGPU.",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/tiny-webgpu-compute.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run tests/**/*.test.ts"
+  },
+  "keywords": [
+    "webgpu",
+    "gpu",
+    "compute",
+    "wgsl",
+    "browser"
+  ],
+  "license": "MIT"
+}

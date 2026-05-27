@@ -1,0 +1,23 @@
+{
+  "name": "tiny-webgpu-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Workspace for a tiny WebGPU compute wrapper and network anomaly analysis package.",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run build --workspaces",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@webgpu/types": "^0.1.60",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}
