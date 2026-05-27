@@ -4,7 +4,7 @@ A small npm workspace for browser WebGPU compute.
 
 @tiny-gpgpu/compute - generic low level layer. Wraps WEbGPU setup, buffer creation, typed GPU vectors, readback, WGSL compute pipeline creation, dispatch and workgroup helpers. Stays close to native WebGPU: users provide WGSL and explicit bindings. Future may provide a simple DSL and interpreter.
 
-@tiny-gpgpu/network-anomaly - ought to be in a separate repo, here for convenience for now. Includes rolling z-score anomaly detection and burst-density detection, with both one-shot and resident GPU dfetector apis fpr repeated interactive runs.
+@tiny-gpgpu/network-anomaly - ought to be in a separate repo, here for convenience for now. Includes rolling z-score anomaly detection and burst-density detection, with both one-shot and resident GPU detector apis for repeated interactive runs.
 
 
 
