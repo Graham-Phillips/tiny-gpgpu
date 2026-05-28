@@ -1,4 +1,4 @@
-# Tiny WebGPU Workspace
+# Tiny WebGPU 
 
 A small npm workspace for browser WebGPU compute.
 
