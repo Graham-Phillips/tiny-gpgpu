@@ -3,3 +3,5 @@ dist/
 packages/*/dist/
 .vite/
 coverage/
+/packages/compute/dist/
+/packages/network-anomaly/dist/
