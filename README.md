@@ -2,7 +2,7 @@
 
 A small npm workspace for browser WebGPU compute.
 
-@tiny-gpgpu/compute - generic low level layer. Wraps WEbGPU setup, buffer creation, typed GPU vectors, readback, WGSL compute pipeline creation, dispatch and workgroup helpers. Stays close to native WebGPU: users provide WGSL and explicit bindings. Future may provide a simple DSL and interpreter.
+@tiny-gpgpu/compute - generic low level layer. Wraps WEbGPU setup, buffer creation, typed GPU vectors, readback, WGSL compute pipeline creation, dispatch and workgroup helpers. Stays close to native WebGPU: users provide WGSL and explicit bindings. Future may provide a simple DSL and interpreter, though don't want to reproduce taichi.js - the intention here is a small and light library that does just enough.
 
 @tiny-gpgpu/network-anomaly - ought to be in a separate repo, here for convenience for now.
 The beginnings of a library with the purpose of identifying anomalies in network data.
