@@ -6,11 +6,11 @@ A small npm workspace for browser WebGPU compute.
 
 @tiny-gpgpu/network-anomaly - ought to be in a separate repo, here for convenience for now.
 The beginnings of a library with the purpose of identifying anomalies in network data.
-Includes rolling z-score anomaly detection and burst-density detection, with both one-shot and resident GPU detector apis for repeated interactive runs.. For resident our data resides on the GPU between calls for performance.
+Includes rolling z-score anomaly detection and burst-density detection, with both one-shot and resident GPU detector apis for repeated interactive runs.. Resident means our data resides on the GPU between calls for increased performance.
 
-Run localhost and the benchmark test to cpmpare performance between JavaScript and Webgpu. On smaller sets JS is faster, but WebGPU overtakes it as data soze inxcreases.
+Run localhost and the benchmark test to compare performance between JavaScript and WebGPU. On smaller sets JS is faster, but WebGPU overtakes it as data size increases.
 
-Might add a WASM version for comparison.
+Might add a WASM version in future for performance comparison.
 
 This repo is split into two libraries:
 
